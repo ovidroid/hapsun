@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+
+
+
+body{
+    width: 100%;
+    text-decoration: none;
+    height: 100vh;
+    position: relative;
+    /* overflow: hidden; */
+    /* background:linear-gradient(to right , #9c27b0,#8ecdff); */
+}
+
+/* header start */
+
+.header{
+    position: sticky;
+}
+
+/* contact details start */
+.contactdetails{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+    position: sticky;
+    top: 0px;
+}
+
+.contactdetails .social a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+ }
+
+ .contactdetails .social a:hover{
+     font-size: larger;
+ }
+
+ .contactdetails .mail h4{
+     margin: 10px;
+     margin-right: 50px;
+ }
+
+@media only screen and (max-width: 812px){
+    .contactdetails{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: orangered;
+        position: sticky;
+        top: 0px;
+    }
+}
+ 
+/* contact details end */
+
+.subheader{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.subheader .logo {
+    margin:5px;
+}
+
+.subheader .logo img{
+    width: 100px;
+    height: 40px;
+}
+
+.subheader nav ul{
+    margin-top: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.subheader nav ul li {
+    /* color: white; */
+    text-decoration: none;  
+    padding: 10px;
+    list-style: none;
+}
+
+.subheader nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.subheader nav ul li a:hover{
+    font-size: larger;
+    color: crimson;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 812px){
+    
+.subheader{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.subheader .logo {
+    margin:2px;
+}
+
+.subheader .logo img{
+    width: 80px;
+    height: 30px;
+}
+
+
+.subheader nav ul{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subheader nav ul li{
+    /* color: white; */
+    padding: 5px;
+    list-style: none;
+}
+
+.subheader nav ul li a:hover{
+    font-size: larger;
+    color: crimson;
+    cursor: pointer;
+}
+
+}
+
+
+/* header ends here */
+
+/* Login form starts here */
+
+.log{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: aquamarine;
+    
+}
+
+.form{
+    border-right: 5px solid orangered;
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    }
+
+.form .inp{
+    padding: 10px;
+    margin: 10px;   
+}
+
+.form .btn{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.msg h1{
+    color: orangered;
+}
+
+.msg p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.msg p span{
+    color: crimson;
+    font-weight: bolder;
+}
+
+
+@media only screen and (max-width: 812px){
+    
+.log{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+   flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: aquamarine;
+    
+}
+
+.form{
+    border: 5px solid orangered;
+    display: flex;
+    margin: 00px;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 5px;
+    }
+
+.form .inp{
+    padding: 5px;
+    margin: 5px;   
+}
+
+.form .btn{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.msg h1{
+    color: orangered;
+}
+
+.msg p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.msg p span{
+    color: crimson;
+    font-weight: bold;
+}
+
+
+}
+
+
+
+/* success start */
+
+.success{
+    background-color: green;
+    color: white;
+    width: 100vw;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.err{
+    background-color: red;
+    color: white;
+    width: 100vw;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+

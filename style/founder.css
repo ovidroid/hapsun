@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+
+
+
+body{
+    width: 100%;
+    text-decoration: none;
+    height: 100vh;
+    position: relative;
+    /* overflow: hidden; */
+    /* background:linear-gradient(to right , #9c27b0,#8ecdff); */
+}
+
+/* header start */
+
+.header{
+    position: sticky;
+}
+
+/* contact details start */
+.contactdetails{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+    position: sticky;
+    top: 0px;
+}
+
+.contactdetails .social a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+ }
+
+ .contactdetails .social a:hover{
+     font-size: larger;
+ }
+
+ .contactdetails .mail h4{
+     margin: 10px;
+     margin-right: 50px;
+ }
+
+@media only screen and (max-width: 812px){
+    .contactdetails{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: orangered;
+        position: sticky;
+        top: 0px;
+    }
+}
+ 
+/* contact details end */
+
+.subheader{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.subheader .logo {
+    margin:5px;
+}
+
+.subheader .logo img{
+    width: 100px;
+    height: 40px;
+}
+
+.subheader nav ul{
+    margin-top: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.subheader nav ul li {
+    /* color: white; */
+    text-decoration: none;  
+    padding: 10px;
+    list-style: none;
+}
+
+.subheader nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.subheader nav ul li a:hover{
+    font-size: larger;
+    color: crimson;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 812px){
+    
+.subheader{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.subheader .logo {
+    margin:2px;
+}
+
+.subheader .logo img{
+    width: 80px;
+    height: 30px;
+}
+
+
+.subheader nav ul{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subheader nav ul li{
+    /* color: white; */
+    padding: 5px;
+    list-style: none;
+}
+
+.subheader nav ul li a:hover{
+    font-size: larger;
+    color: crimson;
+    cursor: pointer;
+}
+
+}
+
+
+/* header ends here */
+/* About Scetion */
+
+
+
+.about{
+    width: 97vw;
+    height: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: coral;
+}
+
+.about .img{
+border-right: 5px solid white;
+}
+
+
+.about .img img{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+
+
+.about-content h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.about-content h2{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.about-content p{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width: 812px){
+    .about{
+        width: 97vw;
+        height: 50%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: blue;       
+    }
+}
